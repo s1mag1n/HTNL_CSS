@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<title>quotes</title>
+	<style>
+		p:before {
+			content: open-quote;
+		}
+
+		p:after {
+			content: close-quote;
+		}
+
+		p.hometown:before {
+
+			content: no-open-quote;
+		}
+
+		p.hometown:after {
+
+			content: no-close-quote;
+		}
+	</style>
+</head>
+
+<body>
+	<p>My name is JEGOR</p>
+	<p class="hometown">I live in USSR</p>
+	
+</body>
+</html>
